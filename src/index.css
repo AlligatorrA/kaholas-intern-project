@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nova+Square&family=Open+Sans:wght@500&family=Quintessential&family=Source+Serif+4:opsz,wght@8..60,300&family=Vollkorn:ital@1&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 1rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Nova Square', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quintessential', cursive;
+  font-family: 'Source Serif 4', serif;
+  font-family: 'Vollkorn', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

@@ -1,0 +1,59 @@
+.m-05 {
+    margin: 5px;
+}
+
+.child {
+    display: flex;
+}
+
+.child_left {
+    max-width: 48vw;
+}
+
+.description {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.child_right {
+    max-width: 48vw;
+}
+
+.right_img_pic {
+    max-width: 50vw;
+}
+
+.right_img {
+    width: 100%;
+}
+
+.round_avtar_box {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+
+.round_avtar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:800px) {
+    .child {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .child_left {
+        max-width: 98vw;
+
+    }
+
+    .child_right {
+        max-width: 98vw;
+
+    }
+}
